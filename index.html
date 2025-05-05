@@ -2,84 +2,117 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Lucas Ferraz - Research & Projects</title>
+  <title>Lucas Ferraz — Research & Projects</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
   <style>
     body {
-      font-family: Arial, sans-serif;
-      margin: 40px;
-      background-color: #f9f9f9;
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f6f9;
       color: #333;
-      max-width: 900px;
+      line-height: 1.6;
     }
-    h1, h2 {
+    header {
+      background-color: #2c3e50;
+      color: #fff;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    header p {
+      font-size: 1.1em;
+      margin-top: 10px;
+    }
+    main {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    .project {
+      background: #fff;
+      border-radius: 10px;
+      padding: 20px;
+      margin-bottom: 25px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .project:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+    }
+    .project h2 {
+      margin-top: 0;
       color: #2c3e50;
+    }
+    .meta, .project p {
+      font-size: 0.95em;
     }
     a {
       color: #2980b9;
       text-decoration: none;
+      transition: color 0.2s;
     }
     a:hover {
+      color: #1a5276;
       text-decoration: underline;
     }
-    .project {
-      background: #fff;
-      padding: 15px;
-      margin: 20px 0;
-      border-radius: 8px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    }
-    .meta {
-      font-size: 0.9em;
-      color: #555;
-    }
     footer {
-      margin-top: 40px;
-      font-size: 0.9em;
+      text-align: center;
+      padding: 30px 20px;
       color: #666;
+      font-size: 0.9em;
     }
   </style>
 </head>
 <body>
-  <h1>Lucas Ferraz — Research & Projects</h1>
-  <p>Welcome! Below is an overview of my recent research projects and publications.</p>
+  <header>
+    <h1>Lucas Ferraz</h1>
+    <p>Research & Projects Overview</p>
+  </header>
 
-  <div class="project">
-    <h2>POTS: A Polyparadigmatic Ontology Term Search with Fine-Grained Context Steering</h2>
-    <p><strong>Type:</strong> Conference paper, presented in 2025</p>
-    <p class="meta"><strong>Authors:</strong> Johannes Frey; Lucas Ferraz; Marvin Hofer (corresponding: Johannes Frey)</p>
-    <p class="meta"><strong>Identifier:</strong> source-work-id: cv-prod-id-4688184</p>
-    <p><strong>Publication:</strong> <em>Coming soon</em></p>
-    <p><strong>Code:</strong> <a href="https://github.com/yourusername/pots" target="_blank">GitHub Repository</a></p>
-  </div>
+  <main>
+    <div class="project">
+      <h2>POTS: A Polyparadigmatic Ontology Term Search</h2>
+      <p><strong>Type:</strong> Conference paper, presented 2025</p>
+      <p class="meta"><strong>Authors:</strong> Johannes Frey; Lucas Ferraz; Marvin Hofer (corresponding: Johannes Frey)</p>
+      <p class="meta"><strong>Identifier:</strong> cv-prod-id-4688184</p>
+      <p><strong>Publication:</strong> <a href="https://www.researchgate.net/publication/389706299_POTS_-_A_Polyparadigmatic_Ontology_Term_Search_with_Fine-Grained_Context_Steering_using_Hyper-Level_Vector_Spaces" target="_blank">View publication</a></p>
+      <p><strong>Code:</strong> <a href="https://github.com/yourusername/pots" target="_blank">GitHub Repository</a></p>
+    </div>
 
-  <div class="project">
-    <h2>Deep Learning to Optimize Viral Vector Production for Human Gene Therapy</h2>
-    <p><strong>Type:</strong> Thesis, completed and deposited in 2025</p>
-    <p class="meta"><strong>Identifier:</strong> source-work-id: cv-prod-id-4686857; handle: <a href="http://hdl.handle.net/10400.5/100019" target="_blank">hdl:10400.5/100019</a></p>
-    <p><strong>Publication:</strong> <a href="http://hdl.handle.net/10400.5/100019" target="_blank">View thesis</a></p>
-    <p><strong>Code:</strong> <a href="https://github.com/yourusername/viral-vector-dl" target="_blank">GitHub Repository</a></p>
-  </div>
+    <div class="project">
+      <h2>Deep Learning to Optimize Viral Vector Production</h2>
+      <p><strong>Type:</strong> Thesis, completed 2025</p>
+      <p class="meta"><strong>Identifier:</strong> cv-prod-id-4686857</p>
+      <p><strong>Publication:</strong> <a href="http://hdl.handle.net/10400.5/100019" target="_blank">View thesis</a></p>
+      <p><strong>Code:</strong> <a href="https://github.com/yourusername/viral-vector-dl" target="_blank">GitHub Repository</a></p>
+    </div>
 
-  <div class="project">
-    <h2>Matcha-DL: A Tool for Supervised Ontology Alignment</h2>
-    <p><strong>Type:</strong> Journal article, published in 2024</p>
-    <p class="meta"><strong>Authors:</strong> Pedro Giesteira Cotovio; Lucas Ferraz; Laura Balbi; Cátia Pesquita; Daniel Faria (corresponding: Pedro Giesteira Cotovio)</p>
-    <p class="meta"><strong>Identifier:</strong> source-work-id: cv-prod-id-4686698</p>
-    <p><strong>Publication:</strong> <em>Coming soon</em></p>
-    <p><strong>Code:</strong> <a href="https://github.com/yourusername/matcha-dl" target="_blank">GitHub Repository</a></p>
-  </div>
+    <div class="project">
+      <h2>Matcha-DL: A Tool for Supervised Ontology Alignment</h2>
+      <p><strong>Type:</strong> Journal article, published 2024</p>
+      <p class="meta"><strong>Authors:</strong> Pedro Giesteira Cotovio; Lucas Ferraz; Laura Balbi; Cátia Pesquita; Daniel Faria (corresponding: Pedro Giesteira Cotovio)</p>
+      <p class="meta"><strong>Identifier:</strong> cv-prod-id-4686698</p>
+      <p><strong>Publication:</strong> <a href="https://www.semantic-web-journal.net/content/matcha-dl-tool-supervised-ontology-alignment" target="_blank">View publication</a></p>
+      <p><strong>Code:</strong> <a href="https://github.com/yourusername/matcha-dl" target="_blank">GitHub Repository</a></p>
+    </div>
 
-  <div class="project">
-    <h2>Results for Matcha and Matcha-DL in OAEI 2023</h2>
-    <p><strong>Type:</strong> Conference paper, presented in 2023</p>
-    <p class="meta"><strong>Authors:</strong> Daniel Faria; Laura Balbi; Cátia Pesquita; Pedro Giesteira Cotovio; Lucas Ferraz; Marta Silva (corresponding: Daniel Faria)</p>
-    <p class="meta"><strong>Identifier:</strong> source-work-id: cv-prod-id-4686697</p>
-    <p><strong>Publication:</strong> <em>Coming soon</em></p>
-    <p><strong>Code:</strong> <a href="https://github.com/yourusername/matcha-oaei" target="_blank">GitHub Repository</a></p>
-  </div>
+    <div class="project">
+      <h2>Results for Matcha and Matcha-DL in OAEI 2023</h2>
+      <p><strong>Type:</strong> Conference paper, presented 2023</p>
+      <p class="meta"><strong>Authors:</strong> Daniel Faria; Laura Balbi; Cátia Pesquita; Pedro Giesteira Cotovio; Lucas Ferraz; Marta Silva (corresponding: Daniel Faria)</p>
+      <p class="meta"><strong>Identifier:</strong> cv-prod-id-4686697</p>
+      <p><strong>Publication:</strong> <a href="https://ceur-ws.org/Vol-3591/oaei23_paper6.pdf" target="_blank">View publication</a></p>
+      <p><strong>Code:</strong> <a href="https://github.com/yourusername/matcha-oaei" target="_blank">GitHub Repository</a></p>
+    </div>
+  </main>
 
   <footer>
-    <p>© 2025 Lucas Ferraz · <a href="https://github.com/yourusername" target="_blank">GitHub Profile</a> · <a href="mailto:your.email@example.com">Contact</a></p>
+    © 2025 Lucas Ferraz · <a href="https://github.com/yourusername" target="_blank">GitHub</a> · <a href="mailto:your.email@example.com">Contact</a>
   </footer>
 </body>
 </html>
